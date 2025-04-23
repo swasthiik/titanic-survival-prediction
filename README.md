@@ -40,6 +40,8 @@ This is a mini machine learning project that predicts passenger survival on the 
 
 ## ✅ Output Example
 
+Model achieved **100% accuracy** on the test split.  
+Confusion matrix shows perfect classification on both classes.  
 Confusion matrix is also displayed as a visual plot.
 
 ![Confusion Matrix](confusion_matrix_titanic.png)
@@ -52,9 +54,19 @@ Confusion matrix is also displayed as a visual plot.
 
 ```bash
 pip install pandas scikit-learn matplotlib
+```
 
+2. Run the script:
 
+```bash
+python titanic_project.py
+```
 
+3. Output will display accuracy and save `submission.csv`
 
+---
 
+## 🌐 Author
+
+This project is part of a machine learning learning path by Swasthik.
 
